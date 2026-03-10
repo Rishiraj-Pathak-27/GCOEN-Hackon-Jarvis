@@ -1,0 +1,506 @@
+symptom,heart_rate,oxygen_level,temperature,systolic_bp,age,medical_history,blood_group,blood_banks_nearby,blood_available,priority
+headache,123,98,39.2,168,27,heart disease,B-,0,Yes,High
+cough,84,95,38.3,142,45,hypertension,O+,4,No,Medium
+vomiting,93,98,37.4,103,29,asthma,AB-,5,Yes,Low
+chest pain,145,91,38.6,175,62,heart disease,AB-,1,No,Critical
+shortness of breath,95,96,37.6,114,40,none,O-,3,No,Medium
+chest pain,130,92,37.1,185,64,heart disease,O-,3,No,Critical
+fatigue,76,97,37.0,125,54,asthma,A+,4,Yes,Low
+fever,133,97,37.2,136,44,diabetes,B+,2,No,High
+dizziness,90,99,37.8,102,38,none,O+,4,Yes,Low
+cough,73,100,36.5,112,49,asthma,B-,3,Yes,Low
+injury,109,96,38.9,129,38,diabetes,AB-,3,No,Medium
+chest pain,136,85,36.7,153,50,hypertension,B+,2,Yes,Critical
+fatigue,90,100,37.2,134,50,none,A-,5,Yes,Low
+chest pain,132,91,37.3,204,56,heart disease,B-,1,No,Critical
+shortness of breath,82,98,37.5,112,58,none,O-,4,Yes,Medium
+shortness of breath,83,95,37.5,118,30,asthma,B+,2,No,High
+chest pain,93,91,38.4,143,37,none,AB-,4,No,Critical
+vomiting,66,96,37.1,106,36,asthma,O-,5,No,Low
+chest pain,115,97,37.0,160,59,heart disease,A-,2,Yes,High
+headache,80,100,36.4,111,51,none,B+,5,No,Low
+headache,88,95,38.4,156,61,none,A+,1,No,Medium
+abdominal pain,84,96,38.7,155,50,heart disease,AB+,3,No,Medium
+shortness of breath,125,82,38.4,128,54,heart disease,A-,0,No,Critical
+cough,73,97,36.4,115,40,none,A-,2,Yes,Low
+dizziness,67,96,37.7,102,18,none,B+,4,No,Low
+cough,88,97,38.0,104,29,none,A-,5,Yes,Low
+chest pain,142,92,39.0,182,63,heart disease,B-,2,Yes,Critical
+shortness of breath,94,96,37.2,133,38,diabetes,B+,5,No,Medium
+chest pain,101,96,38.3,140,53,hypertension,B+,5,Yes,High
+fever,88,99,37.1,115,39,diabetes,AB-,2,No,Low
+vomiting,131,94,37.1,153,66,diabetes,AB-,3,Yes,High
+headache,89,98,36.1,104,21,none,O+,2,Yes,Low
+headache,63,99,37.1,131,27,none,O-,2,No,Low
+headache,75,97,36.5,103,32,asthma,AB+,4,Yes,Low
+cough,74,100,37.9,129,43,asthma,A+,4,Yes,Low
+fatigue,135,97,38.5,130,48,heart disease,O+,3,No,High
+chest pain,128,89,37.0,90,73,diabetes,AB+,2,No,Critical
+shortness of breath,91,95,36.8,135,58,none,AB+,2,No,Medium
+injury,114,97,38.6,149,63,asthma,A-,2,Yes,Medium
+chest pain,149,93,36.6,190,56,heart disease,AB-,1,No,Critical
+dizziness,92,96,37.1,132,36,diabetes,A-,4,No,Low
+headache,78,97,36.6,105,24,none,A+,2,Yes,Low
+chest pain,111,96,37.5,139,71,heart disease,A+,1,No,Critical
+chest pain,150,91,36.7,210,60,heart disease,A-,2,Yes,Critical
+chest pain,147,93,37.0,200,71,hypertension,B+,1,No,Critical
+injury,84,94,38.8,158,66,asthma,A-,1,No,Medium
+chest pain,108,84,36.4,103,72,asthma,B+,2,No,Critical
+chest pain,156,89,37.6,193,85,heart disease,AB-,1,No,Critical
+headache,74,99,36.5,116,41,none,A+,3,No,Low
+chest pain,101,84,36.9,107,72,none,A-,4,No,Critical
+chest pain,132,87,36.3,96,80,none,B+,1,No,Critical
+cough,96,94,38.7,165,59,none,AB-,4,No,Medium
+chest pain,103,86,38.5,103,40,diabetes,B-,4,No,Critical
+chest pain,129,93,38.1,164,51,asthma,AB+,3,No,High
+fatigue,82,95,38.4,152,62,diabetes,AB+,1,No,Medium
+vomiting,60,99,37.3,120,44,diabetes,A-,3,No,Low
+fatigue,63,98,36.4,134,20,diabetes,AB-,2,Yes,Low
+chest pain,98,96,39.0,154,62,hypertension,A+,2,Yes,Medium
+chest pain,36,91,36.7,192,55,hypertension,B+,2,Yes,Critical
+cough,101,96,38.1,137,55,hypertension,A+,3,No,Medium
+chest pain,145,93,38.4,194,62,heart disease,AB+,2,Yes,Critical
+chest pain,142,95,36.7,188,60,heart disease,O+,2,No,Critical
+headache,115,97,38.8,110,36,hypertension,B-,4,No,Medium
+shortness of breath,128,88,37.6,121,39,none,O-,0,Yes,Critical
+fever,93,100,37.0,127,26,diabetes,AB-,4,Yes,Low
+dizziness,111,97,37.9,133,29,diabetes,AB+,5,Yes,Medium
+fever,86,100,36.0,100,48,none,B+,2,Yes,Low
+headache,41,88,36.4,215,68,heart disease,A-,0,Yes,Critical
+shortness of breath,101,82,38.6,132,75,hypertension,B-,2,Yes,Critical
+vomiting,60,100,36.1,102,22,diabetes,A-,4,No,Low
+shortness of breath,144,84,37.9,114,51,hypertension,B+,4,No,Critical
+cough,62,99,37.8,116,52,asthma,A+,2,Yes,Low
+shortness of breath,81,98,36.6,128,39,diabetes,AB-,2,Yes,Medium
+shortness of breath,95,97,37.2,138,60,asthma,A+,2,No,High
+chest pain,152,93,37.4,199,62,heart disease,O+,2,Yes,Critical
+fever,66,99,36.1,117,38,diabetes,O+,4,Yes,Low
+chest pain,113,93,36.9,143,56,asthma,B+,2,Yes,High
+chest pain,102,94,38.1,156,60,heart disease,B-,2,No,High
+cough,65,99,37.8,102,50,asthma,B+,2,No,Low
+vomiting,85,98,37.6,103,28,diabetes,A+,2,Yes,Low
+chest pain,127,93,37.8,193,49,heart disease,O-,0,No,Critical
+dizziness,87,99,36.8,102,52,none,O-,2,No,Low
+fatigue,89,94,38.7,151,45,diabetes,AB-,2,Yes,Medium
+dizziness,92,99,37.3,107,19,none,O-,5,No,Low
+shortness of breath,89,95,38.0,123,37,diabetes,B+,4,Yes,Medium
+chest pain,117,96,37.9,119,30,heart disease,AB-,1,Yes,High
+headache,92,98,36.4,111,28,diabetes,A-,3,No,Low
+shortness of breath,87,98,37.0,131,36,asthma,A-,2,Yes,High
+dizziness,149,95,38.2,205,53,hypertension,B-,2,Yes,Critical
+shortness of breath,113,92,38.3,159,66,asthma,A-,1,Yes,High
+chest pain,107,96,38.3,144,61,heart disease,B+,4,No,High
+shortness of breath,84,97,37.0,127,54,none,O-,3,No,Medium
+chest pain,96,92,38.5,145,33,asthma,O-,1,No,High
+vomiting,77,99,36.4,132,35,diabetes,B-,3,Yes,Low
+fever,80,97,37.4,135,40,none,B+,5,No,Low
+chest pain,117,90,38.9,148,49,heart disease,A-,2,Yes,Critical
+shortness of breath,83,95,37.2,126,48,none,AB-,3,No,Medium
+fatigue,85,96,36.5,108,31,asthma,A+,3,Yes,Low
+vomiting,87,99,37.9,102,50,diabetes,AB+,3,No,Low
+shortness of breath,78,96,36.7,111,39,none,B-,5,No,Medium
+dizziness,44,94,36.3,197,70,hypertension,O+,0,Yes,Critical
+chest pain,140,94,37.7,185,75,heart disease,AB-,3,Yes,Critical
+fever,95,99,36.5,118,21,diabetes,AB+,5,No,Low
+shortness of breath,101,81,39.3,129,40,none,B-,4,Yes,Critical
+shortness of breath,97,98,36.6,127,59,diabetes,B+,4,Yes,Medium
+cough,86,100,37.3,112,46,none,AB+,5,No,Low
+chest pain,100,81,38.5,97,39,none,A+,2,Yes,Critical
+shortness of breath,75,97,36.8,139,28,asthma,O+,5,No,High
+shortness of breath,85,96,37.1,133,45,asthma,A-,4,Yes,High
+chest pain,159,89,36.8,184,69,heart disease,B+,1,Yes,Critical
+shortness of breath,79,95,37.9,110,39,diabetes,O-,2,No,Medium
+vomiting,72,96,37.4,115,32,asthma,O-,4,Yes,Low
+shortness of breath,82,95,37.2,122,34,none,A+,5,Yes,Medium
+chest pain,111,94,38.4,129,78,heart disease,AB-,1,Yes,Critical
+abdominal pain,105,98,38.1,121,20,heart disease,O+,5,Yes,Medium
+fever,84,97,37.7,135,21,none,B+,5,No,Low
+chest pain,114,96,37.0,170,43,heart disease,A-,4,No,High
+shortness of breath,113,86,39.2,111,49,none,AB+,2,No,Critical
+shortness of breath,97,96,37.6,115,56,asthma,O+,3,No,High
+cough,113,96,38.4,136,43,hypertension,AB-,4,No,Medium
+vomiting,119,97,37.1,119,62,asthma,B-,4,No,Medium
+abdominal pain,109,95,37.0,122,27,hypertension,B-,5,Yes,Medium
+headache,95,99,37.8,130,39,none,A+,2,Yes,Low
+shortness of breath,124,91,37.5,133,72,asthma,AB+,2,No,Critical
+shortness of breath,101,81,39.1,123,36,asthma,O+,0,Yes,Critical
+shortness of breath,81,96,37.6,119,28,none,AB-,5,Yes,Medium
+shortness of breath,83,95,36.6,135,44,diabetes,A+,3,No,Medium
+chest pain,97,94,38.1,143,63,heart disease,AB+,1,Yes,High
+cough,129,98,39.4,129,46,none,B+,2,No,High
+fatigue,100,95,38.9,142,61,hypertension,B+,3,Yes,Medium
+shortness of breath,120,93,37.6,116,61,hypertension,A-,1,No,High
+headache,82,97,37.8,121,39,diabetes,O+,3,No,Low
+chest pain,104,88,36.7,123,33,heart disease,A-,1,No,Critical
+shortness of breath,119,90,36.9,124,73,hypertension,O-,1,No,Critical
+vomiting,139,96,38.9,151,65,heart disease,B+,3,Yes,High
+dizziness,61,96,36.8,102,53,asthma,A+,2,No,Low
+fever,94,99,37.8,122,50,diabetes,B+,3,No,Low
+chest pain,151,94,37.3,199,71,heart disease,A+,1,No,Critical
+chest pain,105,94,37.2,153,58,heart disease,A-,3,Yes,High
+chest pain,141,88,38.9,101,84,diabetes,B+,3,No,Critical
+shortness of breath,133,89,37.5,117,84,asthma,B-,2,No,Critical
+fever,101,95,39.1,156,66,hypertension,AB-,4,No,Medium
+chest pain,155,89,37.9,183,74,heart disease,O+,2,Yes,Critical
+abdominal pain,119,97,36.9,149,39,asthma,O-,5,No,Medium
+dizziness,63,100,37.2,104,48,none,A-,5,No,Low
+dizziness,145,89,36.6,216,79,hypertension,AB-,0,Yes,Critical
+abdominal pain,140,93,39.2,152,29,heart disease,A-,4,No,High
+headache,84,97,36.1,103,30,diabetes,B+,4,No,Low
+chest pain,127,82,37.0,121,80,none,AB-,4,Yes,Critical
+fatigue,105,97,38.7,110,39,asthma,A-,3,No,Medium
+cough,82,98,37.1,123,24,none,B+,5,Yes,Low
+fever,69,96,36.3,120,21,asthma,O+,5,No,Low
+chest pain,145,81,36.2,119,74,heart disease,A-,1,Yes,Critical
+cough,109,93,36.8,112,32,heart disease,AB-,1,Yes,High
+shortness of breath,139,85,38.3,105,71,heart disease,O+,3,No,Critical
+chest pain,146,87,38.9,158,74,diabetes,B+,3,Yes,Critical
+fatigue,78,97,36.9,132,23,diabetes,O-,2,Yes,Low
+vomiting,90,96,36.7,112,26,diabetes,B+,4,Yes,Low
+chest pain,113,85,36.4,138,31,heart disease,O-,4,No,Critical
+shortness of breath,82,95,37.7,151,44,asthma,AB+,4,Yes,High
+chest pain,111,96,38.3,127,56,heart disease,O+,4,Yes,High
+chest pain,142,94,37.7,194,66,heart disease,AB+,1,No,Critical
+cough,112,91,38.1,149,46,diabetes,A-,1,No,High
+shortness of breath,85,96,36.9,130,30,none,O+,2,No,Medium
+vomiting,79,96,38.9,142,54,diabetes,B-,4,No,Medium
+chest pain,126,89,38.0,130,84,heart disease,B-,2,Yes,Critical
+dizziness,87,96,38.3,160,35,diabetes,A-,4,No,Medium
+fatigue,88,100,38.0,130,28,none,AB+,3,Yes,Low
+shortness of breath,127,88,38.3,152,34,diabetes,O+,1,Yes,Critical
+chest pain,138,82,37.9,121,35,hypertension,AB+,2,Yes,Critical
+vomiting,74,97,37.5,134,36,asthma,B+,4,No,Low
+chest pain,120,90,37.1,146,52,asthma,O+,3,Yes,Critical
+shortness of breath,108,80,37.1,95,82,heart disease,B-,1,Yes,Critical
+injury,123,98,38.9,175,48,none,O-,2,Yes,High
+dizziness,84,98,37.2,104,51,diabetes,AB+,3,No,Low
+cough,96,93,38.0,127,32,heart disease,B-,4,No,High
+shortness of breath,106,90,37.6,153,73,heart disease,AB+,3,Yes,Critical
+chest pain,119,93,38.2,141,57,heart disease,A-,3,No,High
+chest pain,109,96,37.9,142,48,heart disease,B+,2,No,High
+injury,77,96,38.5,150,59,none,O+,4,No,Medium
+chest pain,131,94,39.2,168,69,heart disease,A-,3,Yes,Critical
+dizziness,87,96,36.1,114,41,none,A+,5,No,Low
+fever,69,100,36.5,104,23,diabetes,AB+,4,No,Low
+dizziness,68,99,36.4,133,33,asthma,A+,5,No,Low
+vomiting,79,95,38.0,162,47,hypertension,O-,2,No,Medium
+headache,109,95,37.2,115,42,hypertension,O+,4,Yes,Medium
+vomiting,60,96,37.3,128,33,asthma,B-,2,No,Low
+abdominal pain,124,93,38.4,165,36,diabetes,AB+,4,Yes,High
+fever,64,98,36.5,106,18,none,AB+,5,No,Low
+chest pain,132,90,38.9,176,82,heart disease,A+,2,No,Critical
+dizziness,94,98,36.4,102,23,none,B-,3,Yes,Low
+chest pain,128,96,38.8,168,29,none,AB-,4,Yes,High
+fever,76,97,36.6,125,39,none,B+,5,No,Low
+fatigue,77,100,36.1,106,23,asthma,O-,5,Yes,Low
+fever,78,97,36.4,100,54,diabetes,A+,3,No,Low
+chest pain,111,93,38.2,153,49,heart disease,O+,2,Yes,High
+dizziness,119,95,38.7,122,57,asthma,B-,4,Yes,Medium
+cough,115,92,36.5,165,73,none,AB-,3,Yes,High
+fever,86,96,36.5,112,30,none,AB+,3,No,Low
+fever,134,97,38.1,120,50,heart disease,O-,1,No,High
+chest pain,166,94,36.1,206,61,heart disease,AB-,0,Yes,Critical
+injury,125,93,38.3,153,70,none,B+,0,Yes,High
+injury,107,96,36.6,136,41,hypertension,A-,2,Yes,Medium
+headache,84,100,37.2,110,22,none,O+,4,No,Low
+chest pain,41,96,37.0,219,64,heart disease,AB+,1,Yes,Critical
+cough,106,97,38.1,138,43,none,B-,1,No,Medium
+shortness of breath,132,94,37.1,122,70,heart disease,B+,1,Yes,High
+injury,124,95,37.2,130,42,hypertension,B+,3,Yes,High
+chest pain,109,93,37.9,130,68,heart disease,AB+,4,No,High
+cough,105,98,38.2,129,64,none,O+,3,Yes,Medium
+chest pain,141,93,37.2,208,62,heart disease,A+,1,Yes,Critical
+shortness of breath,96,95,36.6,130,54,none,A-,3,No,Medium
+cough,86,99,36.9,125,45,diabetes,A+,5,Yes,Low
+chest pain,118,96,38.4,111,36,asthma,AB+,3,Yes,High
+shortness of breath,113,90,39.0,133,64,heart disease,A+,4,No,High
+shortness of breath,83,94,38.4,156,70,asthma,B-,4,No,High
+fever,84,94,38.3,151,40,hypertension,A-,2,Yes,Medium
+fatigue,90,99,36.7,106,45,none,O+,5,Yes,Low
+dizziness,94,99,36.7,132,38,diabetes,O+,3,Yes,Low
+cough,74,98,36.8,121,41,diabetes,O+,5,Yes,Low
+headache,119,98,38.6,142,40,none,AB+,1,Yes,Medium
+fatigue,93,94,39.2,147,54,none,A+,1,No,Medium
+vomiting,102,95,37.6,114,54,none,A-,4,Yes,Medium
+dizziness,81,98,36.9,108,26,diabetes,O+,4,Yes,Low
+fatigue,62,97,37.1,110,26,asthma,A+,3,Yes,Low
+shortness of breath,135,86,38.0,104,29,diabetes,A+,2,Yes,Critical
+chest pain,100,97,37.9,158,61,heart disease,A+,1,Yes,High
+chest pain,103,90,37.4,117,48,asthma,AB-,3,Yes,Critical
+cough,70,96,37.6,121,46,none,O+,3,Yes,Low
+cough,104,98,38.8,145,46,hypertension,B+,4,Yes,Medium
+fever,91,95,38.1,143,63,hypertension,O-,1,No,Medium
+fatigue,83,99,36.7,128,20,diabetes,AB-,5,No,Low
+chest pain,144,94,38.6,196,79,heart disease,B-,3,Yes,Critical
+chest pain,92,92,38.3,115,48,heart disease,AB+,2,Yes,High
+chest pain,39,90,37.2,210,64,heart disease,B+,2,No,Critical
+dizziness,99,96,37.7,162,40,asthma,O-,1,Yes,High
+shortness of breath,117,87,38.2,136,35,heart disease,O-,1,No,Critical
+vomiting,65,98,37.5,128,42,diabetes,A+,5,Yes,Low
+shortness of breath,79,95,37.6,140,47,asthma,A+,4,No,High
+shortness of breath,90,95,38.0,114,42,none,A+,3,No,Medium
+fever,131,96,37.5,127,34,none,O+,0,Yes,High
+cough,135,96,37.1,157,43,none,A-,4,No,High
+chest pain,106,97,37.0,125,67,heart disease,A-,4,Yes,High
+cough,93,100,36.8,106,18,asthma,O-,4,No,Low
+chest pain,107,95,37.8,135,47,heart disease,A+,2,No,High
+shortness of breath,79,98,37.7,134,33,diabetes,B+,2,Yes,Medium
+chest pain,147,88,37.9,164,52,asthma,AB+,2,Yes,Critical
+vomiting,89,96,37.6,133,44,none,AB+,3,Yes,Low
+cough,96,93,36.9,129,31,none,O-,1,No,High
+headache,163,95,37.2,200,55,hypertension,O+,1,Yes,Critical
+shortness of breath,149,88,39.1,142,64,diabetes,B-,1,Yes,Critical
+shortness of breath,82,98,36.6,135,31,none,O-,4,No,Medium
+cough,127,94,38.5,164,32,heart disease,B-,2,Yes,High
+cough,67,99,37.4,130,31,asthma,B+,5,Yes,Low
+fatigue,80,94,38.5,165,49,heart disease,A+,3,Yes,Medium
+dizziness,63,97,36.3,112,39,diabetes,AB-,3,No,Low
+chest pain,115,97,37.1,139,70,heart disease,B-,4,No,High
+dizziness,67,98,37.6,130,49,asthma,O+,2,No,Low
+headache,123,97,38.8,175,37,heart disease,O-,1,Yes,High
+cough,79,98,36.8,124,40,diabetes,O+,3,No,Low
+shortness of breath,125,95,37.6,129,66,none,B+,3,No,High
+headache,78,100,37.8,126,34,none,A+,2,Yes,Low
+abdominal pain,92,95,39.1,147,60,diabetes,B+,4,No,Medium
+cough,91,91,36.5,160,45,asthma,O-,1,Yes,High
+headache,81,97,37.8,110,22,asthma,A-,4,No,Low
+chest pain,43,89,36.7,215,77,heart disease,O-,2,No,Critical
+shortness of breath,131,97,38.2,161,70,hypertension,O+,0,No,High
+shortness of breath,117,96,38.1,132,27,diabetes,AB+,5,Yes,High
+fatigue,100,94,38.1,147,66,asthma,B-,4,Yes,Medium
+headache,168,95,38.2,204,67,heart disease,O-,1,No,Critical
+shortness of breath,80,98,37.7,122,56,none,AB+,5,Yes,Medium
+shortness of breath,128,90,37.2,119,38,asthma,O+,2,Yes,High
+chest pain,116,96,38.4,143,68,heart disease,A-,2,No,High
+chest pain,103,96,37.0,126,43,heart disease,O+,4,No,High
+injury,110,98,37.5,129,44,diabetes,AB-,2,Yes,Medium
+shortness of breath,87,97,37.5,138,48,asthma,AB-,4,Yes,High
+cough,84,99,37.6,110,25,none,A+,3,Yes,Low
+shortness of breath,86,96,37.9,118,42,asthma,B+,2,Yes,High
+vomiting,97,95,39.0,159,62,diabetes,B+,2,Yes,Medium
+fatigue,93,97,37.8,125,38,asthma,B+,2,No,Low
+cough,88,94,37.7,163,44,heart disease,O+,3,No,Medium
+cough,127,90,37.6,124,69,none,O+,4,Yes,High
+vomiting,83,96,39.2,161,41,diabetes,AB+,1,No,Medium
+injury,105,98,38.1,140,50,diabetes,O+,3,No,Medium
+dizziness,77,96,36.7,121,29,none,AB+,5,No,Low
+abdominal pain,117,97,37.2,146,63,asthma,AB+,4,No,Medium
+shortness of breath,116,92,38.6,135,56,none,O-,4,No,High
+dizziness,90,100,37.4,111,42,diabetes,A+,3,No,Low
+cough,99,96,38.9,142,41,asthma,B+,3,No,Medium
+cough,75,96,38.0,105,35,diabetes,O-,5,No,Low
+dizziness,63,97,37.7,113,32,asthma,B-,3,No,Low
+dizziness,68,96,36.0,133,50,asthma,AB+,3,Yes,Low
+cough,74,96,37.8,117,21,diabetes,O-,3,Yes,Low
+headache,80,95,38.9,159,38,heart disease,A+,4,Yes,Medium
+fatigue,86,99,37.8,122,52,diabetes,A-,5,Yes,Low
+shortness of breath,77,95,37.2,140,33,none,O+,4,No,Medium
+shortness of breath,124,92,37.8,127,40,heart disease,AB-,3,No,High
+chest pain,114,96,36.8,148,62,heart disease,AB-,1,No,High
+headache,91,97,37.9,132,22,asthma,A-,4,Yes,Low
+shortness of breath,97,97,37.2,133,30,diabetes,A-,3,No,Medium
+shortness of breath,80,97,37.7,138,32,none,A+,2,Yes,Medium
+dizziness,95,100,37.0,123,53,asthma,AB-,4,No,Low
+headache,69,100,37.4,109,25,asthma,O-,2,No,Low
+fever,119,95,37.8,143,65,heart disease,A-,5,Yes,Medium
+cough,82,99,37.6,100,50,none,AB-,3,Yes,Low
+fever,135,95,39.6,163,28,hypertension,O-,1,No,High
+cough,130,90,36.7,143,43,hypertension,AB+,4,No,High
+chest pain,96,97,37.0,133,76,heart disease,AB+,1,No,Critical
+chest pain,75,96,38.4,140,36,asthma,O+,3,Yes,Medium
+fever,104,98,36.9,148,43,hypertension,AB-,5,Yes,Medium
+cough,104,93,36.6,145,50,asthma,B-,1,No,High
+shortness of breath,97,93,36.7,123,71,asthma,A+,1,No,High
+shortness of breath,100,96,36.6,137,46,none,A+,5,Yes,Medium
+chest pain,102,96,37.8,112,31,hypertension,B+,1,No,High
+fever,71,96,37.0,111,38,asthma,A+,2,No,Low
+fever,68,96,36.8,120,50,diabetes,AB+,3,No,Low
+cough,99,90,36.8,149,70,asthma,O-,4,No,High
+dizziness,89,96,38.5,156,44,heart disease,A+,4,Yes,Medium
+fever,69,97,37.4,100,37,diabetes,A-,4,Yes,Low
+chest pain,127,92,38.1,137,74,heart disease,AB-,3,Yes,Critical
+fatigue,72,99,37.4,134,34,asthma,O+,4,Yes,Low
+fatigue,88,96,37.6,102,36,none,O-,4,Yes,Low
+cough,120,91,38.6,132,65,heart disease,A-,3,Yes,High
+cough,76,99,36.8,102,55,asthma,B-,4,Yes,Low
+shortness of breath,100,88,39.2,158,68,diabetes,O-,3,Yes,Critical
+cough,68,100,36.4,104,22,none,A+,5,Yes,Low
+chest pain,126,91,37.0,171,84,heart disease,B+,1,Yes,Critical
+abdominal pain,80,96,38.5,158,60,heart disease,AB+,1,Yes,Medium
+headache,158,95,36.7,197,59,heart disease,AB-,0,Yes,Critical
+fever,106,95,36.8,112,48,asthma,A+,2,Yes,Medium
+chest pain,114,95,37.9,151,52,heart disease,A-,2,Yes,High
+headache,85,98,37.4,103,48,diabetes,O-,2,No,Low
+abdominal pain,140,94,38.7,129,35,diabetes,B+,3,Yes,High
+chest pain,124,86,38.1,149,58,heart disease,A+,0,No,Critical
+chest pain,140,86,38.9,95,25,heart disease,B+,2,Yes,Critical
+chest pain,104,89,36.2,120,50,none,B-,4,Yes,Critical
+headache,123,97,39.7,118,58,asthma,A+,3,No,High
+injury,138,98,39.3,119,50,none,AB+,0,No,High
+vomiting,72,98,37.7,112,40,asthma,AB+,4,Yes,Low
+dizziness,67,99,36.9,104,34,asthma,O-,2,Yes,Low
+fever,117,97,38.8,127,28,none,B-,2,Yes,Medium
+dizziness,161,94,38.1,205,57,heart disease,B+,1,Yes,Critical
+chest pain,156,94,37.1,170,51,heart disease,AB+,1,Yes,Critical
+fever,100,95,38.9,139,63,asthma,AB+,5,No,Medium
+headache,78,100,37.0,106,19,none,B+,4,Yes,Low
+fatigue,70,97,37.6,108,20,diabetes,A-,5,Yes,Low
+chest pain,112,95,37.1,125,60,heart disease,O+,3,No,High
+chest pain,101,83,37.4,125,80,none,O+,2,No,Critical
+cough,95,99,37.2,126,52,diabetes,AB+,2,Yes,Low
+fatigue,63,97,36.1,103,41,asthma,B-,4,No,Low
+cough,117,95,38.6,137,28,heart disease,O-,4,No,Medium
+injury,91,96,38.2,141,58,asthma,A-,1,Yes,Medium
+fever,110,96,37.4,125,51,asthma,O-,3,No,Medium
+dizziness,66,100,37.4,107,36,none,A-,5,Yes,Low
+chest pain,146,87,37.9,138,30,asthma,O+,4,No,Critical
+injury,76,94,39.1,161,38,none,AB+,2,Yes,Medium
+fever,73,99,37.7,113,52,asthma,AB+,2,Yes,Low
+cough,119,90,38.3,136,71,diabetes,A-,4,No,High
+fatigue,120,98,38.7,118,52,hypertension,O+,2,Yes,Medium
+cough,95,100,37.2,123,46,none,A-,3,Yes,Low
+chest pain,119,98,37.2,147,56,diabetes,A+,5,No,High
+fever,81,100,37.0,106,45,asthma,B-,5,No,Low
+chest pain,133,95,37.7,112,47,none,O-,1,Yes,High
+dizziness,40,94,36.6,214,63,hypertension,O-,2,No,Critical
+fever,89,94,37.9,155,68,heart disease,AB+,4,Yes,Medium
+fatigue,110,98,36.9,123,46,asthma,AB-,1,Yes,Medium
+chest pain,133,88,38.8,207,81,heart disease,A+,0,No,Critical
+shortness of breath,135,80,37.1,116,52,asthma,O-,3,No,Critical
+shortness of breath,110,87,38.9,180,44,asthma,A+,4,No,Critical
+dizziness,82,94,38.1,164,60,heart disease,A+,3,No,High
+shortness of breath,84,98,37.6,137,40,none,B-,2,No,Medium
+chest pain,101,95,37.7,140,60,heart disease,O-,4,Yes,High
+dizziness,67,99,36.5,118,19,asthma,O-,5,No,Low
+chest pain,147,85,36.2,164,55,asthma,B+,0,Yes,Critical
+fatigue,90,100,37.1,122,28,diabetes,A-,4,Yes,Low
+abdominal pain,109,95,37.2,133,64,diabetes,A+,1,No,Medium
+fever,94,96,37.9,151,52,hypertension,A-,3,No,Medium
+chest pain,100,96,37.7,150,41,diabetes,B-,2,Yes,Medium
+headache,127,97,37.4,142,28,hypertension,O-,4,Yes,High
+fatigue,65,99,36.9,128,23,diabetes,AB-,4,Yes,Low
+shortness of breath,129,90,38.2,127,58,hypertension,AB-,4,No,High
+chest pain,133,95,37.0,186,69,heart disease,O-,1,No,Critical
+cough,109,92,37.4,121,39,asthma,AB+,1,Yes,High
+chest pain,122,93,36.7,154,37,asthma,B-,4,No,High
+vomiting,94,96,37.8,127,51,diabetes,O-,2,No,Low
+shortness of breath,149,80,36.8,94,76,heart disease,AB+,2,Yes,Critical
+shortness of breath,84,95,37.3,116,34,diabetes,O-,5,Yes,Medium
+vomiting,70,100,36.3,110,29,asthma,B+,5,No,Low
+chest pain,155,88,38.4,173,67,heart disease,B-,0,Yes,Critical
+injury,101,95,38.4,164,37,hypertension,B-,4,Yes,Medium
+shortness of breath,140,88,38.1,109,48,diabetes,A+,4,No,Critical
+dizziness,125,97,39.0,120,44,asthma,AB+,2,Yes,High
+chest pain,124,80,39.0,118,37,hypertension,O-,2,Yes,Critical
+vomiting,63,99,37.6,126,52,asthma,AB-,3,No,Low
+fatigue,81,99,36.9,122,37,diabetes,A-,3,Yes,Low
+cough,73,97,37.2,110,49,none,B+,5,No,Low
+injury,106,97,39.0,140,53,hypertension,O-,2,No,Medium
+abdominal pain,78,96,37.8,157,46,asthma,A+,4,Yes,Medium
+fatigue,73,100,37.4,122,26,asthma,B+,4,Yes,Low
+fatigue,81,96,37.5,102,55,none,AB-,5,Yes,Low
+shortness of breath,93,97,37.6,117,54,asthma,AB-,3,Yes,High
+fatigue,118,95,37.9,129,21,hypertension,O+,1,Yes,Medium
+chest pain,112,95,37.9,122,43,asthma,O+,1,No,High
+vomiting,109,98,38.5,133,41,none,AB+,5,No,Medium
+vomiting,87,95,37.8,160,69,diabetes,B+,4,No,Medium
+cough,66,97,37.5,131,39,diabetes,B+,3,Yes,Low
+dizziness,107,97,38.4,134,49,asthma,O-,3,No,Medium
+vomiting,72,100,36.0,104,23,asthma,O+,4,No,Low
+cough,64,97,36.6,128,39,asthma,O+,3,No,Low
+chest pain,93,95,38.4,159,69,diabetes,O-,3,No,Medium
+shortness of breath,96,95,37.4,118,29,none,A-,3,No,Medium
+fever,97,94,37.6,144,59,diabetes,AB+,3,No,Medium
+chest pain,119,95,37.5,126,60,heart disease,B-,4,Yes,High
+cough,136,94,38.0,166,54,heart disease,AB+,4,No,High
+shortness of breath,122,85,37.5,155,32,hypertension,B-,2,Yes,Critical
+injury,110,97,38.2,126,59,hypertension,B-,2,No,Medium
+headache,90,97,37.5,135,29,asthma,O-,2,Yes,Low
+chest pain,109,97,36.8,125,44,heart disease,O+,4,No,High
+shortness of breath,81,98,36.9,136,43,asthma,B+,5,No,High
+injury,101,96,38.6,165,46,none,A-,2,Yes,Medium
+shortness of breath,129,93,38.0,125,61,asthma,B+,2,No,High
+chest pain,158,93,38.9,198,84,heart disease,AB+,3,Yes,Critical
+headache,92,97,36.1,132,43,none,A+,3,Yes,Low
+chest pain,101,81,36.8,154,63,none,B-,4,No,Critical
+fatigue,93,98,36.4,132,51,asthma,B-,3,Yes,Low
+vomiting,82,99,37.5,107,32,diabetes,B+,2,Yes,Low
+chest pain,148,83,38.4,118,76,diabetes,B+,0,Yes,Critical
+dizziness,78,98,36.9,106,29,none,O+,4,No,Low
+dizziness,35,92,36.1,191,67,heart disease,B+,2,No,Critical
+injury,114,96,37.0,132,23,none,O+,4,No,Medium
+chest pain,145,85,36.7,171,79,heart disease,AB-,2,Yes,Critical
+vomiting,95,97,37.3,129,39,diabetes,A+,3,No,Low
+abdominal pain,93,94,39.0,141,49,diabetes,AB-,3,Yes,Medium
+fatigue,64,99,36.6,121,35,none,B-,5,No,Low
+vomiting,74,100,36.2,131,27,diabetes,A-,3,No,Low
+chest pain,154,96,36.1,192,60,heart disease,O-,0,No,Critical
+shortness of breath,75,98,37.8,133,44,none,B-,3,No,Medium
+vomiting,92,98,36.3,121,47,asthma,A-,3,No,Low
+chest pain,158,95,36.6,185,52,heart disease,AB-,1,No,Critical
+shortness of breath,89,97,37.1,127,47,none,AB-,4,No,Medium
+shortness of breath,96,95,39.0,158,37,diabetes,O-,1,Yes,Medium
+fever,107,98,37.4,127,32,none,A+,4,Yes,Medium
+shortness of breath,107,84,37.5,148,25,heart disease,B+,4,Yes,Critical
+shortness of breath,97,97,37.7,137,52,diabetes,B+,5,Yes,Medium
+dizziness,36,94,37.8,209,58,hypertension,A-,0,Yes,Critical
+cough,79,98,37.7,106,32,none,O+,5,No,Low
+shortness of breath,98,96,39.0,147,68,diabetes,AB+,2,Yes,Medium
+cough,136,98,39.3,170,53,asthma,A+,0,Yes,High
+shortness of breath,78,98,37.4,111,44,diabetes,B+,2,Yes,Medium
+headache,76,96,36.8,114,32,diabetes,AB+,4,Yes,Low
+chest pain,125,90,38.0,152,74,heart disease,A+,2,No,Critical
+shortness of breath,90,96,37.4,118,51,asthma,AB-,2,Yes,High
+fever,76,98,37.7,127,54,diabetes,O+,5,Yes,Low
+shortness of breath,81,95,37.8,114,32,diabetes,AB+,4,No,Medium
+dizziness,114,96,37.8,113,28,asthma,O+,2,No,Medium
+chest pain,155,95,37.1,185,85,heart disease,O+,3,Yes,Critical
+fever,85,100,36.2,119,38,none,B+,5,No,Low
+chest pain,140,95,38.0,174,74,heart disease,AB+,1,No,Critical
+fatigue,67,97,37.3,103,53,diabetes,A-,4,Yes,Low
+chest pain,131,95,38.4,170,41,none,B-,2,No,High
+dizziness,77,100,36.5,110,55,diabetes,A+,4,No,Low
+chest pain,98,94,38.1,135,71,heart disease,A+,3,No,Critical
+fever,91,100,36.0,134,20,diabetes,O-,4,No,Low
+cough,87,97,36.0,115,32,asthma,AB+,4,No,Low
+chest pain,109,94,38.3,148,45,heart disease,O-,3,Yes,High
+injury,139,94,39.0,147,52,none,O-,1,No,High
+chest pain,149,88,38.6,206,69,heart disease,AB-,0,No,Critical
+shortness of breath,143,83,37.8,111,67,none,O+,4,No,Critical
+shortness of breath,77,96,36.7,134,31,none,A-,3,No,Medium
+vomiting,115,95,38.7,138,23,hypertension,B+,5,No,Medium
+abdominal pain,116,98,37.7,140,40,diabetes,O-,3,No,Medium
+shortness of breath,112,81,36.3,145,47,hypertension,AB+,3,Yes,Critical
+shortness of breath,95,97,37.6,134,39,asthma,A-,2,Yes,High
+fatigue,82,97,36.8,132,27,none,B+,3,No,Low
+dizziness,132,98,39.0,166,64,heart disease,AB-,1,Yes,High
+headache,84,94,39.1,150,59,heart disease,AB-,3,No,Medium
+vomiting,63,96,37.5,112,46,none,O-,3,Yes,Low
+chest pain,111,96,38.0,156,44,heart disease,B+,3,Yes,High
+dizziness,91,100,37.2,102,29,diabetes,AB+,3,No,Low
+abdominal pain,86,95,38.5,161,54,asthma,A-,2,No,Medium
+fever,61,96,37.4,126,46,diabetes,A-,4,No,Low
+shortness of breath,100,98,37.6,133,45,asthma,AB-,4,Yes,High
+shortness of breath,97,94,37.5,156,64,heart disease,A+,4,No,High
+shortness of breath,99,95,37.6,124,47,none,AB+,3,No,Medium
+fatigue,135,98,37.8,145,62,none,O-,4,Yes,High
+cough,106,92,38.9,153,60,none,A-,1,Yes,High
+fatigue,139,97,39.7,115,53,asthma,B-,2,No,High
+fatigue,75,100,36.6,122,55,none,O-,3,Yes,Low
+chest pain,41,95,38.4,194,66,heart disease,A-,1,Yes,Critical
+fever,61,99,37.9,110,45,none,A+,2,No,Low
+headache,170,92,37.1,204,72,heart disease,AB+,1,No,Critical
+headache,95,100,36.3,102,18,asthma,AB+,2,No,Low
+shortness of breath,79,97,37.6,113,26,asthma,AB+,4,Yes,High
+headache,116,98,36.9,125,22,asthma,A-,2,Yes,Medium
+headache,95,98,37.1,134,48,asthma,B+,4,No,Low
+shortness of breath,98,91,36.7,158,65,diabetes,B-,2,No,High
+headache,93,99,36.6,100,18,asthma,B-,5,Yes,Low
+chest pain,117,87,36.7,106,71,asthma,AB-,1,No,Critical
+chest pain,112,97,37.1,139,50,heart disease,B+,3,Yes,High
+chest pain,136,92,38.0,204,75,heart disease,AB-,3,No,Critical
+cough,106,93,37.1,110,59,heart disease,B+,1,No,High
+shortness of breath,77,94,39.1,154,58,heart disease,A-,2,Yes,High
+shortness of breath,80,95,37.9,137,53,diabetes,B-,2,No,Medium
+dizziness,60,100,37.5,135,45,asthma,AB-,3,Yes,Low
+cough,92,90,37.1,153,48,diabetes,A-,4,Yes,High

@@ -6,7 +6,8 @@ import {
   useScroll,
   useMotionValueEvent,
 } from 'framer-motion';
-import { IconMenu2, IconX } from '@tabler/icons-react';
+import { IconMenu2, IconX, IconSun, IconMoon } from '@tabler/icons-react';
+import { useTheme } from '../context/ThemeContext';
 
 const navItems = [
   { name: 'Home', link: '/' },
@@ -38,7 +39,7 @@ function NavItems({ onItemClick }) {
           end={item.link === '/'}
           onClick={onItemClick}
           onMouseEnter={() => setHovered(idx)}
-          style={{ position: 'relative', padding: '8px 12px', fontSize: 14, fontWeight: 600, textDecoration: 'none', color: 'var(--text-secondary)', zIndex: 20 }}
+          style={{ position: 'relative', padding: '8px 12px', fontSize: 14, fontWeight: 600, textDecoration: 'none', color: 'var(--nav-link-color)', zIndex: 20 }}
           className={({ isActive }) => isActive ? 'topnav-link active' : 'topnav-link'}
         >
           {hovered === idx && (
@@ -66,10 +67,16 @@ export default function TopNav() {
   const { scrollY } = useScroll({ target: ref, offset: ['start start', 'end start'] });
   const [visible, setVisible] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
     setVisible(latest > 80);
   });
+
+  // Get computed CSS variable values for theme-aware colors
+  const getNavBg = (scrolled) => {
+    return scrolled ? 'var(--nav-bg-scrolled)' : 'var(--nav-bg)';
+  };
 
   return (
     <motion.div
@@ -81,12 +88,11 @@ export default function TopNav() {
         animate={{
           backdropFilter: visible ? 'blur(12px)' : 'none',
           boxShadow: visible
-            ? '0 0 24px rgba(34,42,53,0.08), 0 1px 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(34,42,53,0.06), 0 16px 68px rgba(47,48,55,0.06)'
+            ? 'var(--nav-shadow)'
             : 'none',
           width: visible ? '72%' : '100%',
           borderRadius: visible ? 9999 : 0,
           y: visible ? 8 : 0,
-          background: visible ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.98)',
           borderBottom: visible ? '1px solid transparent' : '1px solid var(--border)',
           paddingLeft: visible ? 20 : 48,
           paddingRight: visible ? 20 : 48,
@@ -98,6 +104,7 @@ export default function TopNav() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
+          background: getNavBg(visible),
           position: 'relative',
         }}
       >
@@ -109,8 +116,8 @@ export default function TopNav() {
             fontSize: 20, flexShrink: 0,
           }}>🏥</div>
           <div>
-            <div style={{ fontSize: 15, fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.2 }}>AI Triage</div>
-            <div style={{ fontSize: 10, color: 'var(--text-secondary)', fontWeight: 500 }}>Emergency Assistant</div>
+            <div style={{ fontSize: 15, fontWeight: 800, color: 'var(--nav-logo-text)', lineHeight: 1.2 }}>AI Triage</div>
+            <div style={{ fontSize: 10, color: 'var(--nav-link-color)', fontWeight: 500 }}>Emergency Assistant</div>
           </div>
         </Link>
 
@@ -130,6 +137,24 @@ export default function TopNav() {
             <span style={{ width: 7, height: 7, background: 'var(--accent-red)', borderRadius: '50%', animation: 'blink 1.2s infinite', display: 'inline-block' }} />
             ER Active — 3 Critical
           </motion.div>
+          
+          {/* Theme Toggle Button */}
+          <motion.button
+            onClick={toggleTheme}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              width: 36, height: 36, borderRadius: 8,
+              background: 'var(--primary-light)', border: 'none',
+              cursor: 'pointer', color: 'var(--primary)',
+              transition: 'all 0.2s ease',
+            }}
+            title={theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+          >
+            {theme === 'light' ? <IconMoon size={18} /> : <IconSun size={18} />}
+          </motion.button>
+          
           <Link to="/intake" style={{
             display: 'inline-flex', alignItems: 'center', gap: 6,
             padding: '8px 18px', borderRadius: 8, fontSize: 14, fontWeight: 700,
@@ -152,7 +177,6 @@ export default function TopNav() {
           width: visible ? '92%' : '100%',
           borderRadius: visible ? 12 : 0,
           y: visible ? 8 : 0,
-          background: visible ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.98)',
         }}
         transition={{ type: 'spring', stiffness: 200, damping: 40 }}
         style={{
@@ -160,16 +184,26 @@ export default function TopNav() {
           flexDirection: 'column',
           position: 'relative',
           padding: '12px 16px',
+          background: getNavBg(visible),
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}>
             <div style={{ width: 34, height: 34, background: 'var(--accent-red)', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 18 }}>🏥</div>
-            <span style={{ fontSize: 14, fontWeight: 800, color: 'var(--text-primary)' }}>AI Triage</span>
+            <span style={{ fontSize: 14, fontWeight: 800, color: 'var(--nav-logo-text)' }}>AI Triage</span>
           </Link>
-          <button onClick={() => setMobileOpen(o => !o)} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 4 }}>
-            {mobileOpen ? <IconX size={22} /> : <IconMenu2 size={22} />}
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <button onClick={toggleTheme} style={{ 
+              background: 'var(--primary-light)', border: 'none', cursor: 'pointer', 
+              padding: 6, borderRadius: 6, color: 'var(--primary)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}>
+              {theme === 'light' ? <IconMoon size={18} /> : <IconSun size={18} />}
+            </button>
+            <button onClick={() => setMobileOpen(o => !o)} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 4, color: 'var(--nav-logo-text)' }}>
+              {mobileOpen ? <IconX size={22} /> : <IconMenu2 size={22} />}
+            </button>
+          </div>
         </div>
 
         <AnimatePresence>
@@ -186,7 +220,7 @@ export default function TopNav() {
                   to={item.link}
                   end={item.link === '/'}
                   onClick={() => setMobileOpen(false)}
-                  style={{ padding: '10px 12px', borderRadius: 8, fontSize: 14, fontWeight: 600, textDecoration: 'none', color: 'var(--text-secondary)' }}
+                  style={{ padding: '10px 12px', borderRadius: 8, fontSize: 14, fontWeight: 600, textDecoration: 'none', color: 'var(--nav-link-color)' }}
                   className={({ isActive }) => isActive ? 'topnav-link active' : 'topnav-link'}
                 >
                   {item.name}

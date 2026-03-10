@@ -31,6 +31,66 @@
   --navbar-height: 72px;
   --topnav-height: 72px;
   --transition: all 0.2s ease;
+
+  /* Navbar theme variables - Light mode */
+  --nav-bg: rgba(255, 255, 255, 0.98);
+  --nav-bg-scrolled: rgba(255, 255, 255, 0.9);
+  --nav-shadow: 0 0 24px rgba(34,42,53,0.08), 0 1px 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(34,42,53,0.06), 0 16px 68px rgba(47,48,55,0.06);
+  --nav-link-color: var(--text-secondary);
+  --nav-link-active: var(--primary);
+  --nav-logo-text: var(--text-primary);
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg: #0f1419;
+  --white: #1a1f2e;
+  --text-primary: #e7e9ea;
+  --text-secondary: #a8b3c4;
+  --text-muted: #6e7a8a;
+  --border: #2f3542;
+  --primary-light: rgba(29,111,191,0.2);
+  --accent-red-light: rgba(229,57,53,0.15);
+  --accent-green-light: rgba(46,125,50,0.15);
+  --accent-orange-light: rgba(245,124,0,0.15);
+  --accent-yellow-light: rgba(249,168,37,0.15);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+
+  /* Navbar theme variables - Dark mode */
+  --nav-bg: rgba(15, 20, 25, 0.98);
+  --nav-bg-scrolled: rgba(26, 31, 46, 0.95);
+  --nav-shadow: 0 0 24px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.05), 0 16px 68px rgba(0,0,0,0.4);
+  --nav-link-color: var(--text-secondary);
+  --nav-link-active: #4da3ff;
+  --nav-logo-text: var(--text-primary);
+}
+
+/* System preference support */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1419;
+    --white: #1a1f2e;
+    --text-primary: #e7e9ea;
+    --text-secondary: #a8b3c4;
+    --text-muted: #6e7a8a;
+    --border: #2f3542;
+    --primary-light: rgba(29,111,191,0.2);
+    --accent-red-light: rgba(229,57,53,0.15);
+    --accent-green-light: rgba(46,125,50,0.15);
+    --accent-orange-light: rgba(245,124,0,0.15);
+    --accent-yellow-light: rgba(249,168,37,0.15);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+    --nav-bg: rgba(15, 20, 25, 0.98);
+    --nav-bg-scrolled: rgba(26, 31, 46, 0.95);
+    --nav-shadow: 0 0 24px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.05), 0 16px 68px rgba(0,0,0,0.4);
+    --nav-link-color: var(--text-secondary);
+    --nav-link-active: #4da3ff;
+    --nav-logo-text: var(--text-primary);
+  }
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -254,7 +314,7 @@ body {
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--text-secondary);
+  color: var(--nav-link-color);
   text-decoration: none;
   transition: var(--transition);
   cursor: pointer;
@@ -262,8 +322,8 @@ body {
   background: none;
 }
 
-.topnav-link:hover { color: var(--primary); background: var(--primary-light); }
-.topnav-link.active { color: var(--primary); background: var(--primary-light); }
+.topnav-link:hover { color: var(--nav-link-active); background: var(--primary-light); }
+.topnav-link.active { color: var(--nav-link-active); background: var(--primary-light); }
 
 .topnav-actions {
   display: flex; align-items: center; gap: 10px;

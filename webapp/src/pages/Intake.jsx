@@ -37,7 +37,10 @@ export default function Intake() {
     setError('');
     setLoading(true);
     try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 10000);
       const res = await fetch(`${API}/predict`, {
+        signal: controller.signal,
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -50,6 +53,7 @@ export default function Intake() {
           blood_banks_nearby: parseInt(form.blood_banks_nearby),
         }),
       });
+      clearTimeout(timer);
       if (!res.ok) throw new Error('Prediction failed');
       const result = await res.json();
       navigate('/analysis', { state: { result, patient: form } });
