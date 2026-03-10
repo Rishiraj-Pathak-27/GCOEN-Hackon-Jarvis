@@ -5,6 +5,15 @@ The system analyzes **patient symptoms, vital signs, medical history, and blood 
 
 ---
 
+## 🌐 Live Demo
+
+| Service | URL |
+|---------|-----|
+| **Frontend** | [https://gcoen-hackon-jarvis-git-main-rishirajpathak234s-projects.vercel.app](https://gcoen-hackon-jarvis-git-main-rishirajpathak234s-projects.vercel.app) |
+| **Backend API** | [https://gcoen-hackon-jarvis.onrender.com](https://gcoen-hackon-jarvis.onrender.com) |
+
+---
+
 ## 📌 Project Overview
 
 Emergency departments often face **overcrowding and delayed patient prioritization**, which can impact patient outcomes.
