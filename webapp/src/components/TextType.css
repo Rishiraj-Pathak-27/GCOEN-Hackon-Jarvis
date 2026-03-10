@@ -1,0 +1,20 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__content {
+  display: inline;
+}
+
+.text-type__cursor {
+  margin-left: 0.1rem;
+  display: inline-block;
+  opacity: 1;
+  color: var(--primary, #2563eb);
+  font-weight: 400;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
