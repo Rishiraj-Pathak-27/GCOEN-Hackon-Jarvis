@@ -11,7 +11,9 @@ app = Flask(__name__)
 FRONTEND_URLS = [
     "http://localhost:5173",
     "http://localhost:3000",
-    os.environ.get("FRONTEND_URL", ""),  # Set this in Railway env vars
+    "https://gcoen-hackon-jarvis-git-main-rishirajpathak234s-projects.vercel.app",
+    "https://gcoen-hackon-jarvis.vercel.app",  # Production domain
+    os.environ.get("FRONTEND_URL", ""),  # Additional URL from Railway env vars
 ]
 # Filter out empty strings
 FRONTEND_URLS = [url for url in FRONTEND_URLS if url]
