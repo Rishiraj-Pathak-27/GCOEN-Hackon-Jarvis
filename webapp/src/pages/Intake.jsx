@@ -4,7 +4,7 @@ import { User, Heart, Activity, Thermometer, Droplets, AlertCircle, Loader } fro
 
 const BLOOD_GROUPS = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
 const RARE_TYPES   = ['AB-', 'B-', 'A-', 'O-'];
-const API          = 'http://localhost:5000';
+const API          = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 export default function Intake() {
   const navigate = useNavigate();

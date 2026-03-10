@@ -6,7 +6,16 @@ import os
 import random
 
 app = Flask(__name__)
-CORS(app)  # Allow requests from the React frontend
+
+# CORS: Allow Vercel frontend and localhost for development
+FRONTEND_URLS = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    os.environ.get("FRONTEND_URL", ""),  # Set this in Railway env vars
+]
+# Filter out empty strings
+FRONTEND_URLS = [url for url in FRONTEND_URLS if url]
+CORS(app, origins=FRONTEND_URLS if FRONTEND_URLS else "*")
 
 # ── Load model and encoders from the dataset folder ──────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
